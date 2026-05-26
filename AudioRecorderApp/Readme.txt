@@ -19,6 +19,7 @@ Features:
 • Display recording duration
 • Display recording date and time
 • Bottom sheet style player
+• Background recording supported
 
 Architecture:
 

