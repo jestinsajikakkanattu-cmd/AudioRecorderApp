@@ -34,7 +34,11 @@ class AudioRecorderManager: NSObject {
             
             let session = AVAudioSession.sharedInstance()
             
-            try session.setCategory(.playAndRecord)
+            try session.setCategory(
+                .playAndRecord,
+                mode:.default,
+                options:[.defaultToSpeaker]
+            )
             try session.setActive(true)
             
             let fileName = "Recording-\(Date().timeIntervalSince1970).m4a"

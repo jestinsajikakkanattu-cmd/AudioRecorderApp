@@ -40,6 +40,10 @@ class AudioRecorderViewModel {
     
     var showAlert = false
     var alertMessage = ""
+    
+    var showDeleteAlert = false
+    var recordingToDelete: Recording?
+    
     var isPaused = false
     
     

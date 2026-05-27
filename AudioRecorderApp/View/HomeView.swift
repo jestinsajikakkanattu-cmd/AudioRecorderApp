@@ -314,19 +314,18 @@ struct HomeView: View {
                                                 
                                                 Button {
                                                     
-                                                    viewModel.deleteRecording(
-                                                        audio
-                                                    )
+                                                    viewModel.recordingToDelete =
+                                                    audio
+                                                    
+                                                    viewModel.showDeleteAlert =
+                                                    true
                                                     
                                                 } label: {
                                                     
                                                     Image(
-                                                        systemName:
-                                                        "trash"
+                                                        systemName:"trash"
                                                     )
-                                                    .foregroundColor(
-                                                        .black
-                                                    )
+                                                    .foregroundColor(.black)
                                                 }
                                             }
                                         }
@@ -511,6 +510,38 @@ struct HomeView: View {
             Button(
                 "OK"
             ) {}
+        }
+        .alert(
+            "Delete Recording",
+            isPresented:
+            $viewModel.showDeleteAlert
+        ) {
+            
+            Button(
+                "Delete",
+                role:.destructive
+            ) {
+                
+                if let recording =
+                    viewModel.recordingToDelete {
+                    
+                    viewModel.deleteRecording(
+                        recording
+                    )
+                }
+            }
+            
+            
+            Button(
+                "Cancel",
+                role:.cancel
+            ) { }
+            
+        } message: {
+            
+            Text(
+                "Are you sure you want to delete this recording? This action cannot be undone."
+            )
         }
     }
 }
