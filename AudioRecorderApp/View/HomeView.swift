@@ -109,7 +109,7 @@ struct HomeView: View {
                         
                         
                         Text(
-                            "No Data"
+                            "No Recordings available"
                         )
                         .foregroundColor(
                             .gray
