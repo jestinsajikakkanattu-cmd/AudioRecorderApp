@@ -25,7 +25,6 @@ Audio recording app built using SwiftUI and MVVM architecture following the MVVM
 - SwiftUI
 - MVVM Architecture
 - AVFoundation
-- Combine
 - XCTest
 
 ## Unit Testing
